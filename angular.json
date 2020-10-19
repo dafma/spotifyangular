@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "spotiFiAngullar"
+    }
+  },
+  "defaultProject": "spotiFiAngullar",
+  "cli": {
+    "analytics": "edb10665-ed68-40bb-a399-c000c9ba044b"
+  }
 }
