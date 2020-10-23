@@ -18,6 +18,7 @@ import { ROUTES } from './app.router';
 
 // services
 import { SpotifyService } from './services/spotify.service';
+import { TarjetasComponent } from './search/tarjetas/tarjetas.component';
 
 
 
@@ -29,6 +30,7 @@ import { SpotifyService } from './services/spotify.service';
     ArtistaComponent,
     NavbarComponent,
     NoimagesPipe,
+    TarjetasComponent,
   ],
   imports: [
     BrowserModule,
