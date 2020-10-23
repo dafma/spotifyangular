@@ -10,11 +10,15 @@ import { SearchComponent } from './search/search.component';
 import { ArtistaComponent } from './artista/artista.component';
 import { NavbarComponent } from './shared/navbar/navbar.component';
 
+// pipes
+import { NoimagesPipe} from "./pipes/noimages.pipe";
+
 // importar rutas
 import { ROUTES } from './app.router';
 
 // services
 import { SpotifyService } from './services/spotify.service';
+
 
 
 @NgModule({
@@ -24,7 +28,7 @@ import { SpotifyService } from './services/spotify.service';
     SearchComponent,
     ArtistaComponent,
     NavbarComponent,
-
+    NoimagesPipe,
   ],
   imports: [
     BrowserModule,
